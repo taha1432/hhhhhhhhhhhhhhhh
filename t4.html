@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,intial-scale =1.0">
+    <title>
+      About
+    </title>
+    <link rel="stylesheet" href="t4.css">
+  </head>
+  <body>
+    <header>    
+      <div class="container">
+        <div id="mark">
+          <h1 class="htitle">sports on live</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Register</a></li>
+            <li><a href="t2.html">Footbal</a></li>
+            <li><a href="t3.html">Best players</a></li>
+            <li><a href="t4.html" class="now">About</a></li>    
+          </ul>
+        </nav>    
+      </div>
+    </header> 
+    <div class="comment">
+      <form>
+        <p>Please, write a comment.</p>
+        <label>your name:</label>
+        <input type="text" placeholder="your name" required>
+        <label>your comment:</label>
+        <textarea id="my-text" placeholder="type your note" required></textarea>
+        <button id="button" onclick="popup()">Send</button>   
+      </form>
+    </div>
+    <div class="text">
+      <div class="ti">What is the purpose from this website!?</div><br>
+      This website is designed to learn every thing about football. And facilitate the knowledge of football in various ways.
+      We also want to show the importance of playin sports, for example, playing footbal. After visiting our site we want to
+      thank you for visiting our website.  
+    </div>
+    <div class="endbar">The place for football fan</div>
+    <script>
+      document.getElementById("button").onclick = function popup(){
+      var text = document.getElementById("my-text").value;
+      if(text != ""){
+      alert("successful comment");
+      return true;
+      }
+      else if(text == ""){
+      alert("try again")
+      }
+      return false;
+      }    
+    </script>
+  </body>
+</html>  

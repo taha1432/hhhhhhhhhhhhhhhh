@@ -1,0 +1,92 @@
+body{
+    font-size: 20px;
+    margin: 0px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.container{
+    width: 88%;
+    margin: 0px auto;
+    padding: 0;
+    overflow: hidden;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    padding: 10px;
+    min-height: 70px;
+    border-bottom: 2px solid darkgoldenrod;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+.now{
+    color:darkgoldenrod;
+}
+header li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+header #mark{
+    float: left;
+}
+header #mark h1{
+    margin: 0px;
+    color: darkgoldenrod;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+.fc{
+    width: 35%;     
+    margin: 30px auto;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.h{
+    border-bottom: 2px solid;
+    font-weight: bold;
+    text-align: center;
+}
+.control {
+	display: block;
+    margin-bottom: 10px;
+}
+.fc input,select{
+    border: 2px solid darkgray;
+	border-radius: 4px;
+	font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    width:100%;
+}
+.control input{
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 100%;
+	font-size: 14px;
+	padding: 10px;
+    color: darkgoldenrod;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
